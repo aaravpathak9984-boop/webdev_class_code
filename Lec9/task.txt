@@ -1,0 +1,3 @@
+//setup express
+//public folder serve karna h index.html
+

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1> Hello welocme to user page: </h1>
+    <h3>name: <%=students.name %></h3>
+    <h3> Roll no: <%=students.roll %></h3>
+    <h2> color : <%=color%></h2>
+   <%if(students.age<18){%>
+    <h2> not elgible for voting</h2>
+   <%} else {%>
+    <h3>Eligible hai</h3>
+   <%}%>
+    
+   <% while(flag<=20){%>
+    <h4> <%=flag%></h4>
+    <% flag++; %>
+<%}%>
+
+
+    
+</body>
+</html>
